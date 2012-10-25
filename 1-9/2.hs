@@ -1,3 +1,3 @@
 myButLast :: [a]->a
-myButLast [x, y] = x
+myButLast [x, _] = x
 myButLast (_:xs) = myButLast(xs)
